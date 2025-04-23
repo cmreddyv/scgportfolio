@@ -1,16 +1,13 @@
 import nodemailer from 'nodemailer';
 import { GuestbookEntry } from '@shared/schema';
 
-if (!process.env.EMAIL_USER || !process.env.EMAIL_PASSWORD) {
-  console.warn("EMAIL_USER or EMAIL_PASSWORD environment variables not set. Email notifications will not work.");
-}
 
 // Create a transporter object using SMTP transport
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASSWORD,
+    user: "cmrscg25@gmail.com",
+    pass: "Scentre@2025",
   },
 });
 
