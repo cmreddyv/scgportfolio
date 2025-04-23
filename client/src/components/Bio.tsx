@@ -30,8 +30,8 @@ export default function Bio() {
             <Card className="overflow-hidden shadow-lg border-none">
               <CardContent className="p-0">
                 <img 
-                  src="https://images.unsplash.com/photo-1573164713988-8665fc963095" 
-                  alt="Technology team collaboration" 
+                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                  alt="Man working with laptop" 
                   className="w-full aspect-video object-cover"
                 />
               </CardContent>
